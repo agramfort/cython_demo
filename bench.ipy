@@ -1,0 +1,5 @@
+from primes_python import primes as primes_py
+from primes import primes as primes_pyx
+
+%timeit primes_py(500)
+%timeit primes_pyx(500)
